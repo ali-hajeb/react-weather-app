@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+    color: white;
+}
 /* #region Lazy Loading Styles */
 .sync {
     animation: blinker 1s linear infinite;
