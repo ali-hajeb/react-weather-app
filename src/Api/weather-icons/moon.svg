@@ -1,0 +1,39 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+    y="0px" viewBox="0 0 55 55" style="enable-background:new 0 0 30.8 42.5;" xml:space="preserve">
+    <defs>
+        <style>
+            .white {
+                fill: white;
+            }
+
+            .star {
+                fill: white;
+                opacity: 0;
+            }
+
+            .stars path:nth-child(1) {
+                animation: blinker 2s linear infinite;
+            }
+
+            .stars path:nth-child(2) {
+                animation: blinker 2s linear infinite .7s;
+            }
+
+            @keyframes blinker {
+                50% {
+                    opacity: 0.7;
+                }
+            }
+        </style>
+    </defs>
+    <g id="svg_1" class="stars">
+        <path stroke="null" id="svg_2" class="star"
+            d="m46.50001,28.50003l-3.25001,-7.00002l-3.25001,7.00002l-6.50002,3.50001l6.50002,3.50001l3.25001,7.00002l3.25001,-7.00002l6.50002,-3.50001l-6.50002,-3.50001z" />
+        <path stroke="null" id="svg_3" class="star"
+            d="m36.75263,6.58063l-2.12765,-4.33062l-2.12765,4.33062l-4.24734,2.16937l4.24734,2.16937l2.12765,4.33062l2.12765,-4.33062l4.24734,-2.16937l-4.24734,-2.16937z" />
+    </g>
+    <path
+        d="m18.3,33.90001c-0.3,-9.3 5.8,-17.2 14.4,-19.7c-2.8,-1.2 -5.8,-1.8 -9.1,-1.7c-11.7,0.4 -20.9,10.1 -20.6,21.9c0.3,11.7 10.1,20.9 21.9,20.6c3.2,-0.1 6.3,-0.9 8.9,-2.3c-8.6,-1.9 -15.2,-9.5 -15.5,-18.8z"
+        class="white" id="Moon" transform="rotate(-17 18.39643478393558,33.748207092285156) " />
+    
+</svg>
