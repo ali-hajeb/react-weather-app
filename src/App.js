@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './fa-icon/css/all.css'
 import './App.css';
-import Button from 'muicss/lib/react/button';
 import { getAPI } from './Api/funcs';
 import * as ui from './UI/ui';
 import Details from './Components/Details';
@@ -89,7 +88,9 @@ class App extends Component {
     }
     return (
       <div className='mui-container-fluid mb'>
-        <Button aria-label='Search' name='Search' className='btn btn-search' variant='fab' onClick={ui.toggleSearchMenu}><i className='fas fa-search'></i></Button>
+        <button aria-label='Search' name='Search' className='btn btn-search' variant='fab' onTouchStart={ui.clickAnim} onTouchEnd={ui.clickAnim} onClick={ui.toggleSearchMenu}>
+          <i className='fas fa-search'></i>
+        </button>
         {cur}
         {det}
         {daily}

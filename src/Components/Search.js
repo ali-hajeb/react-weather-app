@@ -38,7 +38,7 @@ class List extends Component {
                         .then(res => res.json())
                         .then(data => {
                             const d = data;
-                            searchIcon.innerHTML = '<i class="far fa-search"></i>';
+                            searchIcon.innerHTML = '<i class="fas fa-search"></i>';
                             can_change = true;
                             this.setState({ cities: d });
                         });
@@ -52,7 +52,7 @@ class List extends Component {
                 <div className='search-page' aria-hidden="false">
                     <div className='search-bar' >
                         <div className='search-icon'>
-                            <i className="far fa-search"></i>
+                            <i className="fas fa-search"></i>
                         </div>
                         <div className='search-input-holder'>
                             <input id='s' type='search' className='search-input' placeholder='Search ...' />

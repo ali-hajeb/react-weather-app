@@ -37,12 +37,13 @@ const Current = (props) => {
                     <small>{country + ', ' + region}</small>
                     <div className='city-weather'>
                         <h2>{text}</h2>
-                        <button data-toggle='#details' className='a-toggle' onTouchStart={ui.clickAnim} onTouchEnd={ui.clickAnim} onClick={ui.toggleLink}>Show more</button>
+                        <button data-toggle='#details' className='a-toggle' 
+                                onTouchStart={ui.clickAnim} onTouchEnd={ui.clickAnim} 
+                                onClick={ui.toggleLink}>Show more</button>
                     </div>
                 </div>
                 <div className='top-weather'>
                     <div className='weather-sym center'>
-                        {/*"/assets/svg/weather/" + codeToClass(code, is_day) + ".svg"*/}
                         <img className='weather-ico' src={codeToClass(code, is_day)} alt={text} ></img>
                     </div>
                     <div className='weather-temp'>
