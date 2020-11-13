@@ -455,6 +455,7 @@ body::-webkit-scrollbar {
 /* #region HourlyWeather Component Styles */
 .bot {
     padding: 1rem 0;
+    padding-bottom: 2rem;
     height: 175px;
     overflow: hidden;
     transition: all 500ms ease-in-out;-ms-overflow-style: none;
@@ -466,7 +467,7 @@ body::-webkit-scrollbar {
 }
 
 .bot.show {
-    overflow: auto;
+    /* overflow: auto; */
     height: auto;
 }
 
@@ -485,6 +486,7 @@ body::-webkit-scrollbar {
 
 .hourly-item div {
     padding-right: .75rem;
+    font-size: small;
 }
 
 .hourly-item-clock {
@@ -493,7 +495,7 @@ body::-webkit-scrollbar {
 
 .hourly-ico {
     padding-right: .5rem;
-    width: 20px;
+    width: 28px;
     height: 22px;
     text-align: center;
 }
