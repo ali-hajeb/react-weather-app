@@ -1,6 +1,8 @@
 import React from 'react';
 import {codeToClass} from '../Api/funcs';
 import * as ui from '../UI/ui';
+import Clock from '../fa-icon/clock.svg';
+import Umbrella from '../fa-icon/umbrella.svg';
 
 const Hourly = (props) => {
     const listData = (data, s = 0, e) => {
@@ -11,12 +13,12 @@ const Hourly = (props) => {
                 const h = time.split(' ');
                 return (
                     <div className='hourly-item' key={i}>
-                        <i className="hourly-item-clock fas fa-clock"></i>
+                        <div className='hourly-item-clock'><img src={Clock} alt='Clock' width='16' height='16' /></div>
                         <div className='hourly-time'>{h[1]}</div>
                         <img className='hourly-ico' src={codeToClass(code, is_day)} alt={text} ></img>
                         <div className='hourly-temp'>{parseInt(temp_c)} &deg;C</div>
                         <div className='hourly-desc'>{text}</div>
-                        <div><i className="fas fa-umbrella"></i> {chance_of_rain}%</div>
+                        <div><img src={Umbrella} alt='Clock' width='16' height='16' /> {chance_of_rain}%</div>
                     </div>
                 );
             })

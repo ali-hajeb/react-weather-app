@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import {getAPI} from '../Api/funcs';
 import * as ui from '../UI/ui';
+import Spinner from '../fa-icon/spinner.svg';
+import SearchIcon from '../fa-icon/search-w.svg';
+import Location from '../fa-icon/location.svg';
 
 const SearchList = (props) => {
     const setCity = (lat, lon) => {
@@ -9,7 +12,7 @@ const SearchList = (props) => {
     }
     var content = props.search.length ? props.search.map(item => {
         const { lat, lon, id, name, country } = item;
-        return <li id={id} key={id} onTouchStart={ui.clickAnim} onTouchEnd={ui.clickAnim} onClick={() => setCity(lat, lon)} className='list-item'><i className="fas fa-location"></i> {name.split(',')[0] + ', ' + country}</li>;
+        return <li id={id} key={id} onTouchStart={ui.clickAnim} onTouchEnd={ui.clickAnim} onClick={() => setCity(lat, lon)} className='list-item'><img src={Location} alt="Location" width='16' /> {name.split(',')[0] + ', ' + country}</li>;
     }) : <h4 className='search-404'>Nothing to show</h4>;
     return (
         <div className='search-result'>
@@ -28,7 +31,7 @@ class List extends Component {
         searchInput.addEventListener('keyup', (e) => {
             clearTimeout(timeout);
             if (can_change) {
-                searchIcon.innerHTML = '<i class="fad fa-spinner fa-pulse"></i>';
+                searchIcon.innerHTML = `<img src=${Spinner} alt="Spinner" class='fa-pulse' width='16' />`;
                 can_change = false;
             }
             timeout = setTimeout(() => {
@@ -38,7 +41,7 @@ class List extends Component {
                         .then(res => res.json())
                         .then(data => {
                             const d = data;
-                            searchIcon.innerHTML = '<i class="fas fa-search"></i>';
+                            searchIcon.innerHTML = `<img src=${SearchIcon} alt="Search" width='16' />`;
                             can_change = true;
                             this.setState({ cities: d });
                         });
@@ -52,7 +55,7 @@ class List extends Component {
                 <div className='search-page' aria-hidden="false">
                     <div className='search-bar' >
                         <div className='search-icon'>
-                            <i className="fas fa-search"></i>
+                            <img src={SearchIcon} alt="Search" width='16' />
                         </div>
                         <div className='search-input-holder'>
                             <input id='s' type='search' className='search-input' placeholder='Search ...' />

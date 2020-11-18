@@ -1,5 +1,6 @@
 import React from 'react';
 import {codeToClass, months, days } from '../Api/funcs';
+import Cloud from '../fa-icon/cloud.svg';
 
 export const DailyLazy = () => {
     let content = [];
@@ -14,7 +15,7 @@ export const DailyLazy = () => {
                         <div className='sync-date'></div>
                     </div>
                     <div className='card-sym '>
-                        <i className='tqr fad fa-4x fa-cloud' />
+                        <img src={Cloud} alt="Cloud" className='ico-4x' />
                     </div>
                     <div className='card-temp'>
                         <div className='sync-temp-daily'></div>
@@ -77,7 +78,7 @@ const Daily = (props) => {
                         <div className='sync-date'></div>
                     </div>
                     <div className='card-sym '>
-                        <i className='tqr fad fa-4x fa-cloud' />
+                        <img src={Cloud} alt="Cloud" className='ico-4x' />
                     </div>
                     <div className='card-temp'>
                         <div className='sync-temp-daily'></div>

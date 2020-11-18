@@ -1,6 +1,7 @@
 import React from 'react';
 import {codeToClass } from '../Api/funcs';
 import * as ui from '../UI/ui';
+import Cloud from '../fa-icon/cloud.svg';
 
 export const CurrentLazy = () => {
     return (
@@ -12,7 +13,7 @@ export const CurrentLazy = () => {
                 </div>
                 <div className='top-weather'>
                     <div className='weather-sym center'>
-                        <i className='fas fa-5x fa-cloud' />
+                        <img src={Cloud} alt="Cloud" className='ico-5x' />
                     </div>
                     <div className='weather-temp'>
                         <div className='sync-temp'></div>

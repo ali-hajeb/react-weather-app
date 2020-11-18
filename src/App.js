@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './fa-icon/css/all.css'
 import './App.css';
 import { getAPI } from './Api/funcs';
 import * as ui from './UI/ui';
@@ -8,6 +7,7 @@ import Hourly from './Components/HourlyWeather';
 import List from './Components/Search';
 import Daily, { DailyLazy } from './Components/DailyWeather';
 import Current, { CurrentLazy } from './Components/CurrentWeather';
+import SearchIcon from './fa-icon/search.svg';
 
 class App extends Component {
   constructor(props) {
@@ -89,7 +89,7 @@ class App extends Component {
     return (
       <div className='mui-container-fluid mb'>
         <button aria-label='Search' name='Search' className='btn btn-search' variant='fab' onTouchStart={ui.clickAnim} onTouchEnd={ui.clickAnim} onClick={ui.toggleSearchMenu}>
-          <i className='fas fa-search'></i>
+          <img src={SearchIcon} alt="Search" width='16' />
         </button>
         {cur}
         {det}

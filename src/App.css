@@ -35,6 +35,14 @@ body::-webkit-scrollbar {
     margin-bottom: 70px;
 }
 
+.ico-4x {
+    height: 4em;
+}
+
+.ico-5x {
+    height: 5em;
+}
+
 .fa-det {
     font-size: 1.5em;
 }
@@ -364,6 +372,20 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-items: center;
     align-items: stretch;
+}
+
+.fa-pulse {
+    animation: fa-spin 1s steps(8) infinite
+}
+
+@keyframes fa-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
 }
 
 .search-icon {
