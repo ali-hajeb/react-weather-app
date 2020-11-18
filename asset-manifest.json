@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-weather-app/static/css/main.d7f140c6.chunk.css",
-    "main.js": "/react-weather-app/static/js/main.cdddc3e0.chunk.js",
-    "main.js.map": "/react-weather-app/static/js/main.cdddc3e0.chunk.js.map",
+    "main.css": "/react-weather-app/static/css/main.9f7477e1.chunk.css",
+    "main.js": "/react-weather-app/static/js/main.dd98bdbf.chunk.js",
+    "main.js.map": "/react-weather-app/static/js/main.dd98bdbf.chunk.js.map",
     "runtime-main.js": "/react-weather-app/static/js/runtime-main.ae495e0b.js",
     "runtime-main.js.map": "/react-weather-app/static/js/runtime-main.ae495e0b.js.map",
     "static/js/2.14561f32.chunk.js": "/react-weather-app/static/js/2.14561f32.chunk.js",
@@ -10,24 +10,38 @@
     "index.html": "/react-weather-app/index.html",
     "service-worker.js": "/react-weather-app/service-worker.js",
     "service-worker.js.map": "/react-weather-app/service-worker.js.map",
-    "static/css/main.d7f140c6.chunk.css.map": "/react-weather-app/static/css/main.d7f140c6.chunk.css.map",
+    "static/css/main.9f7477e1.chunk.css.map": "/react-weather-app/static/css/main.9f7477e1.chunk.css.map",
     "static/js/2.14561f32.chunk.js.LICENSE.txt": "/react-weather-app/static/js/2.14561f32.chunk.js.LICENSE.txt",
+    "static/media/clock.120c03e2.svg": "/react-weather-app/static/media/clock.120c03e2.svg",
     "static/media/cloud-light.2f40900e.svg": "/react-weather-app/static/media/cloud-light.2f40900e.svg",
     "static/media/cloud-moon.abfebffd.svg": "/react-weather-app/static/media/cloud-moon.abfebffd.svg",
     "static/media/cloud-rain-light.05040c61.svg": "/react-weather-app/static/media/cloud-rain-light.05040c61.svg",
+    "static/media/cloud-rain.82a06616.svg": "/react-weather-app/static/media/cloud-rain.82a06616.svg",
     "static/media/cloud-snow-light.a694d0ab.svg": "/react-weather-app/static/media/cloud-snow-light.a694d0ab.svg",
     "static/media/cloud-sun.f42a43c9.svg": "/react-weather-app/static/media/cloud-sun.f42a43c9.svg",
+    "static/media/cloud.e2beacb1.svg": "/react-weather-app/static/media/cloud.e2beacb1.svg",
     "static/media/cloudy.eea4ac38.svg": "/react-weather-app/static/media/cloudy.eea4ac38.svg",
-    "static/media/all.css": "/react-weather-app/static/media/fa-solid-900.abe688ec.eot",
+    "static/media/eye.9ddf0c1b.svg": "/react-weather-app/static/media/eye.9ddf0c1b.svg",
+    "static/media/humidity.1cbff4e5.svg": "/react-weather-app/static/media/humidity.1cbff4e5.svg",
+    "static/media/location.4d48955c.svg": "/react-weather-app/static/media/location.4d48955c.svg",
     "static/media/moon.4ef1b02e.svg": "/react-weather-app/static/media/moon.4ef1b02e.svg",
     "static/media/rainy.3e89e664.svg": "/react-weather-app/static/media/rainy.3e89e664.svg",
+    "static/media/search-w.dd7ac1e6.svg": "/react-weather-app/static/media/search-w.dd7ac1e6.svg",
+    "static/media/search.ac0d491a.svg": "/react-weather-app/static/media/search.ac0d491a.svg",
     "static/media/snow.7b3132d5.svg": "/react-weather-app/static/media/snow.7b3132d5.svg",
-    "static/media/sunny.6925e579.svg": "/react-weather-app/static/media/sunny.6925e579.svg"
+    "static/media/spinner.7a221789.svg": "/react-weather-app/static/media/spinner.7a221789.svg",
+    "static/media/sunny.6925e579.svg": "/react-weather-app/static/media/sunny.6925e579.svg",
+    "static/media/sunrise.e0448ed2.svg": "/react-weather-app/static/media/sunrise.e0448ed2.svg",
+    "static/media/sunset.823f3a4f.svg": "/react-weather-app/static/media/sunset.823f3a4f.svg",
+    "static/media/temperature-avg.bcee7b76.svg": "/react-weather-app/static/media/temperature-avg.bcee7b76.svg",
+    "static/media/temperature-high.682ad1f4.svg": "/react-weather-app/static/media/temperature-high.682ad1f4.svg",
+    "static/media/temperature-low.1ee045ce.svg": "/react-weather-app/static/media/temperature-low.1ee045ce.svg",
+    "static/media/umbrella.39ffd3c0.svg": "/react-weather-app/static/media/umbrella.39ffd3c0.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ae495e0b.js",
     "static/js/2.14561f32.chunk.js",
-    "static/css/main.d7f140c6.chunk.css",
-    "static/js/main.cdddc3e0.chunk.js"
+    "static/css/main.9f7477e1.chunk.css",
+    "static/js/main.dd98bdbf.chunk.js"
   ]
 }
