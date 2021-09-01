@@ -29,4 +29,4 @@ published by the Free Software Foundation, either version 3 of the License, or
 
 The weather data is provided by [Weather API](http://www.weatherapi.com/).
 
-Icons are <a href='https://erikflowers.github.io/weather-icons/'>Weather Icons</a>, by <a href='http://codepen.io/WaelYasmina'> Wael Yasmina</a> (but I added some animations and some other changes), under the <a href='https://codepen.io/WaelYasmina/pen/brgNYK/license'>license</a>.
+Icons are [Weather Icons](https://erikflowers.github.io/weather-icons/), by [Wael Yasmina](http://codepen.io/WaelYasmina) (but I added some animations and some other changes), under the [license](https://codepen.io/WaelYasmina/pen/brgNYK/license).
