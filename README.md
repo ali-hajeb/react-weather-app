@@ -4,7 +4,7 @@ A simple weather app created using React JS.
 ## Features
 * A simple weather app
 * Minimalist design
-* Up to 10 day forecast (Free license only give you access up to 3 days forcast so you will need a premium license)
+* Up to 10 day forecast (Free license only gives you access up to 3 days forcast, so you will need a premium license)
 * Works with any city in the world
 
 ## Screenshots
