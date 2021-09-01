@@ -1,19 +1,24 @@
-## React Weather App
+# React Weather App
+
 A simple weather app created using React JS.
 
 ## Features
+
 * A simple weather app
 * Minimalist design
 * Up to 10 day forecast (Free license only gives you access up to 3 days forcast, so you will need a premium license)
 * Works with any city in the world
 
 ## Screenshots
+
 ![Screenshot](/screenshots/screenshot.png?raw=true "Screenshot")
 
 ## Contribution
+
 If you have any ideas or issues, don't hesitate to make contact via the Issues page. Every contribution is appreciated.
 
 ## Licence
+
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
 This application is Free Software: You can use, study share and improve it at your
