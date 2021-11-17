@@ -24,6 +24,8 @@ const Hourly = (props) => {
             })
         );
     }
+
+    // rendering hourly predictions into 2 columns
     const date = new Date();
     const hour = date.getHours();
     let hourCollection = props[0].hour.slice(hour);

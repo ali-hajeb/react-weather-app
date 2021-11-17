@@ -12,6 +12,7 @@ import SearchIcon from './fa-icon/search.svg';
 class App extends Component {
   constructor(props) {
     super(props);
+    // Loading cached city data from local storage
     const city = localStorage.getItem('city') ? localStorage.getItem('city') : 'Abadan';
     this.state = {
       city: city,
@@ -22,6 +23,7 @@ class App extends Component {
     }
   }
 
+  // set new selected city and get weather
   handlerListClick = (id) => {
     localStorage.setItem('city', id);
     this.setState({ city: id })
@@ -29,6 +31,7 @@ class App extends Component {
     document.getElementById('s').value = '';
   }
 
+  // fetch weather data from api
   getData = (city = this.state.city) => {
     this.setState({ loaded: false })
     fetch(getAPI('forecast', city, '&days=5'))
@@ -60,7 +63,10 @@ class App extends Component {
   }
 
   componentDidMount() {
+    // load weather data
     this.getData()
+    
+    // set interval to update weather data every 5 minutes
     setInterval(this.getData, 5 * 60 * 1000);
   }
 
@@ -75,6 +81,8 @@ class App extends Component {
   render() {
     const { location, current, forecast, loaded } = this.state;
     let cur, daily, hourly, det;
+
+    // replace skeleton loading components with real ones after fetching data
     if (loaded) {
       cur = Current({ current: current, location: location });
       daily = Daily(forecast.forecastday);
