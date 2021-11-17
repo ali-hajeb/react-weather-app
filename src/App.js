@@ -9,7 +9,6 @@ import Daily, { DailyLazy } from './Components/DailyWeather';
 import Current, { CurrentLazy } from './Components/CurrentWeather';
 import SearchIcon from './fa-icon/search.svg';
 
-///
 class App extends Component {
   constructor(props) {
     super(props);
