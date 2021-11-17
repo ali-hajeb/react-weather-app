@@ -1,6 +1,11 @@
 {
   "homepage": "https://ali-hajeb.github.io/react-weather-app",
   "name": "react-weather-app",
+  "repository": {
+    "type": "git",
+    "directory": "./",
+    "url": "https://github.com/ali-hajeb/react-weather-app.git"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
